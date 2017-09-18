@@ -1,0 +1,152 @@
+body{
+        overflow: hidden;
+    }
+
+.holder {
+    display: none; 
+}
+
+.customBtns{
+    position: absolute;
+    width: 860px;
+    height: 50px;
+    margin: 250px 0 0 0;
+}
+
+.pgs{
+    margin: 0 auto;
+    width: 940px;
+    height: 450px;
+    position: relative; 
+}
+
+.contP1{
+    overflow: hidden;
+    width: 824px;
+    height: 340px;
+    position: absolute;
+    margin: 170px 0 0 50px;
+}
+
+.adv{
+    background: url(../img/adv.png) no-repeat;
+    width: 834px;
+    height: 364px;
+}
+
+.botonesP1{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0 0 60px;
+}
+
+.btnExtras{
+    margin-top: -95px;
+    margin-left: 257px;
+    position: absolute;
+}
+.cajaResalt{
+    cursor: pointer;
+    margin: 0 0 0 0;
+}
+
+.cont{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.cls{
+    position: absolute;
+    right: -6px;
+    top: -11px;
+    cursor: pointer;
+}
+
+.black{
+    width: 100%;
+    height: 100%;
+    background: rgba(37, 48, 16, 0.95);
+    position: absolute;
+    z-index: 3;
+}
+.posExtras1{
+    margin: -255px 0px 296px 532px;
+    width: 46px;
+    height: 46px;
+}
+.posExtras2{
+    margin: -352px 0px 310px 590px;
+    width: 46px;
+    height: 46px;
+}
+.posExtras3{
+    margin: -368px 0px 324px 650px;
+    width: 46px;
+    height: 46px;
+}
+.posExtras4{
+    margin: -381px 0px 338px 710px;
+    width: 46px;
+    height: 46px;
+}    
+.posExtras5{
+    padding: 1px;
+    margin: -419px 0px 340px 123px;
+    width: 349px;
+    height: 115px;
+    background-color: #ffffff;
+    border-radius: 17px 17px 17px 17px;
+    -moz-border-radius: 17px 17px 17px 17px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    border: 0px solid #000000;
+} 
+.posExtras9{
+    padding: 19px;
+    margin: -369px 0px 247px 60px;
+    width: 752px;
+    height: 150px;
+    background-color: #ffffff;
+}   
+.posExtras10{
+    margin-top: -239px;
+    margin-left: 62px;
+}
+.cont_accordeon{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 317px;
+    width: 562px;
+    border-style: groove; border-width: 1px;
+
+}
+.acordeon{
+    position: absolute;
+    margin: 100px 0 0 10px;
+}
+.instruccion{
+    position: absolute;
+    margin: 133px 0 0 460px;
+}
+.instrucciones1{
+    position: absolute;
+    margin: 192px 0 0 655px;
+}
+.instrucciones2{
+    position: absolute;
+    margin: 194px 0 0 634px;
+}
+.titulo_acordeon1{
+    position: absolute;
+    margin: 7px 0 0 12px;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-weight: bold;  
+    visibility: inherit;
+    text-transform: uppercase;
+    font-size: 16px;
+}

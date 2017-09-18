@@ -1,0 +1,61 @@
+body{
+        overflow: hidden;
+    }
+
+.menuP1{
+    width: 230px;
+    height: 290px;
+    position: absolute;
+    margin: 215px 0 0 39px;
+}
+.btnP1{
+    width: 208px;
+    height: 72px;
+    margin: 21px 0 -6px 20px;
+    cursor: pointer;
+}
+.contP1{
+    width: 555px;
+    height: 262px;
+    overflow: hidden;
+    position: absolute;
+    margin: 228px 0 0 283px;
+}
+.pdf01{
+    margin: 488px 0 0 288px;
+    position: absolute;
+}
+.acordeon{
+    position: absolute;
+    margin: 100px 0 0 10px;
+}
+.cajaResalt{
+    cursor: pointer;
+    margin: 0 0 10px 0;
+}
+.btnExtras{
+    position: absolute;
+    margin: 310px 0 0 788px;
+}
+
+.cls{
+    position: absolute;
+    right: -6px;
+    top: -11px;
+    cursor: pointer;
+}
+
+.cont_accordeon{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 60px;
+    border-style: solid;
+    border-width: 1px;
+    width: 619px;
+    border-color: #7f7f7f;
+}
+
+.posExtras1{
+    margin-top: 294px;
+    margin-left: 710px;
+}

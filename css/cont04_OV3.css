@@ -1,0 +1,168 @@
+body{
+        overflow: hidden;
+    }
+
+.holder {
+    display: none; 
+}
+
+.customBtns{
+    position: absolute;
+    width: 860px;
+    height: 50px;
+    margin: 250px 0 0 0;
+}
+
+.pgs{
+    margin: 0 auto;
+    width: 940px;
+    height: 450px;
+    position: relative; 
+}
+.adv{
+    background: url(../img/adv.png) no-repeat;
+    width: 834px;
+    height: 364px;
+}
+
+.botonesP1{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0 0 60px;
+}
+
+.btnExtras{
+    margin-top: -60px;
+    margin-left: 700px;
+    position: absolute;
+}
+
+.cont{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.cls{
+    position: absolute;
+    right: 205px;
+    top: 209px;
+    cursor: pointer;
+}
+.black{
+    width: 100%;
+    height: 100%;
+    background: rgba(37, 48, 16, 0.95);
+    position: absolute;
+    z-index: 3;
+}
+.posExtras{
+    padding: 1px;
+    margin: -166px 0px 0px 356px;    
+}
+.posExtras1{
+    margin: -168px 0px 0px 443px;
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+}
+.posExtras2{
+    margin: -103px 0px 0px 417px;
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+}
+.posExtras3{
+    margin: -104px 0px 0px 443px;
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+}
+.posExtras4{
+    margin: -70px 0px 0px 518px;
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+}    
+.posExtras5{
+    margin: -3px 0px 0px 597px;
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+} 
+.posExtras6{
+    margin: 35px 0px 0px 622px;
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+} 
+.posExtras7{
+    margin: 25px 0px 0px 595px;
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+} 
+.posExtras8{
+    padding: 19px;
+    margin: -369px 0px 260px 60px;
+    width: 754px;
+    height: 120px;
+    background-color: #ffffff;
+} 
+.posExtras9{
+    padding: 19px;
+    margin: -369px 0px 247px 60px;
+    width: 752px;
+    height: 150px;
+    background-color: #ffffff;
+}   
+.posExtras10{
+    margin-top: -75px;
+    margin-left: 57px;
+}
+/*-------------------------------------------------*/
+.contP1{
+    overflow: hidden;
+    width: 801px;
+    height: 193px;
+    position: absolute;
+    margin: 155px 0px 0px 40px;
+    border: 1px solid;
+    border-color: gray;
+    background-color: white;
+    padding: 15px;
+}
+
+.btnP1{
+    /*width: 114px;
+    height: 27px;*/
+    cursor: pointer;
+} 
+
+.btnP1:hover{
+  background-color: #0b082b;  
+}
+
+.btn_tab_col{
+    background-color: #64d1da;
+    border: 1px inset;
+    border-color: gray;
+    width: 117px;
+}
+
+.cont_tab_pos{
+    /* margin-left: 25px; */
+    margin-top: 10px;
+}
+
+.pos_tab_cont{
+    margin-top: 227px;
+}
+
+.pos_tab_btn{
+    margin-left: 40px;
+    margin-top: 196px;
+}

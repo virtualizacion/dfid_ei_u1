@@ -1,0 +1,151 @@
+body{
+        overflow: hidden;
+}
+.holder {
+    display: none;
+}
+
+.customBtns{
+    position: absolute;
+    width: 860px;
+    height: 50px;
+    margin: 250px 0 0 0;
+}
+
+.pgs{
+    margin: 0 auto;
+    width: 940px;
+    height: 450px;
+    position: relative;
+}
+
+.contP1{
+    overflow: hidden;
+    width: 824px;
+    height: 340px;
+    position: absolute;
+    margin: 170px 0 0 50px;
+}
+
+.adv{
+    background: url(../img/adv.png) no-repeat;
+    width: 834px;
+    height: 364px;
+}
+
+.botonesP1{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0 0 80px;
+}
+
+.btnExtras{
+    margin-top: -60px;
+    margin-left: 700px;
+    position: absolute;
+}
+
+.cont{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.cls{
+    position: absolute;
+    right: -6px;
+    top: -11px;
+    cursor: pointer;
+}
+
+.posExtras1{
+    margin-top: -78px;
+    margin-left: 47px;
+}
+
+.posExtras2{
+    margin-top: -408px;
+    margin-left: 683px;
+}
+
+.textTab1{
+    padding-bottom: 142px;
+    padding-left: 15px;
+}
+
+.textTab2{
+    padding-bottom: 140px;
+    /* width: 356px; */
+    padding-left: 15px;
+}
+
+.imgTab1{
+    width: 334px;
+    padding-bottom: 7px;
+}
+
+.imgTab2{
+    width: 334px;
+    padding-bottom: 18px;
+}
+
+.imgTab3{
+    width: 334px;
+    padding-bottom: 28px;
+}
+
+.imgTab4{
+    width: 334px;
+    padding-bottom: 0px;
+}
+
+.btn_tab_col{
+    background-color: rgb(112, 112, 112);
+    border: 1px solid;
+    border-color: gray;
+    width: 189.2px;
+}
+
+.cont_tab_pos{
+    margin-left: 25px;
+}
+
+.pos_tab_btn{
+    margin-top: 199px;
+    width: 187px;
+    height: 70px;
+}
+
+.pos_tab_cont{
+    margin-top: 297px;
+}
+
+
+.cont_tab_s{
+    width: 763px;
+    /*border: 1px solid;*/
+    margin-left: 10px;
+    margin-top: 0px;
+    background-color: white;
+    padding: 14px;
+}
+
+.contP1{
+    overflow: hidden;
+    width: 716px;
+    height: 106px;
+    position: absolute;
+    margin: 269px 0px 0px 80px;
+    border: 1px solid;
+    border-color: gray;
+
+    background-color: white;
+    padding: 15px;
+}
+
+.pos-img-tab{
+    margin-top: 10px;
+}

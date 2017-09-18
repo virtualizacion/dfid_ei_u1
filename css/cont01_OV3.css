@@ -1,0 +1,190 @@
+body{
+        overflow: hidden;
+    }
+
+.holder {
+    display: none; 
+}
+
+.customBtns{
+    position: absolute;
+    width: 860px;
+    height: 50px;
+    margin: 250px 0 0 0;
+}
+
+.pgs{
+    margin: 0 auto;
+    width: 940px;
+    height: 450px;
+    position: relative; 
+}
+
+.botones2{
+    overflow: hidden;
+    width: 824px;
+    height: 340px;
+    position: absolute;
+    margin: 170px 0 0 50px;
+}
+
+.adv{
+    background: url(../img/adv.png) no-repeat;
+    width: 834px;
+    height: 364px;
+}
+
+.botonesP1{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0 0 60px;
+}
+
+.btnExtras{
+    margin-top: -60px;
+    margin-left: 700px;
+    position: absolute;
+}
+
+.cont{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.cls{
+    position: absolute;
+    right: 243px;
+    top: 43px;
+    cursor: pointer;
+}
+
+.black{
+    width: 100%;
+    height: 100%;
+    background: rgba(37, 48, 16, 0.95);
+    position: absolute;
+    z-index: 3;
+}
+.posExtras{
+    padding: 1px;
+    margin: -403px 0px 0px 205px;
+    width: 513px;
+    height: 331px;
+    background-color: #ffffff;
+    border-radius: 17px 17px 17px 17px;
+    -moz-border-radius: 17px 17px 17px 17px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    border: 0px solid #000000;
+}
+.posExtras1{
+    padding: 1px;
+    margin: -410px 0px 340px 313px;
+    width: 513px;
+    height: 331px;
+    background-color: #ffffff;
+    border-radius: 17px 17px 17px 17px;
+    -moz-border-radius: 17px 17px 17px 17px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    border: 0px solid #000000;
+}
+.posExtras2{
+    margin: -304px 0px 0px 43px;
+    width: 117px;
+    height: 109px;
+    border: 3px;
+    border-color: red;
+}
+.posExtras3{
+    margin: 20px 0px 0px 169px;
+    width: 117px;
+    height: 109px;
+}
+.posExtras4{
+    margin: -245px 0px 0px 306px;
+    width: 117px;
+    height: 109px;
+}
+.posExtras5{
+    margin: 32px 0px 0px 446px;
+    width: 117px;
+    height: 109px;
+}
+.posExtras6{
+    margin: -247px 0px 0px 586px;
+    width: 117px;
+    height: 109px;
+}
+.posExtras7{
+    margin: 31px 0px 0px 728px;
+    width: 117px;
+    height: 109px;
+}    
+.botones{
+    position: absolute;
+    margin: -386px 0 0 842px;
+}
+.botones_div{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 117px;
+    border-style: groove; border-width: 1px;
+}
+.cont_accordeon{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 29px;
+    width: 864px;
+    border-style: groove; border-width: 1px;
+
+}
+.acordeon{
+    position: absolute;
+    margin: 100px 0 0 10px;
+}
+.contP1{
+    overflow: hidden;
+    width: 739px;
+    height: 190px;
+    position: absolute;
+    margin: 170px 0px 0px 65px;
+    border: 1px solid;
+    background-color: white;
+    padding: 15px;
+}
+
+
+.btnP1{
+    width: 208px;
+    height: 72px;
+    /* margin: 37px 0 -6px 20px; */
+    cursor: pointer;
+}
+
+.btnP1:hover{
+  background-color: #707070;
+}
+
+.btn_tab_col{
+    background-color: #707070;
+    border: 1px solid;
+    width: 384px;
+}
+
+.cont_tab_pos{
+    /* margin-left: 25px; */
+    margin-top: 10px;
+}
+
+.pos_tab_cont{
+    margin-top: 263px;
+}
+
+.pos_tab_btn{
+    margin-left: 65px;
+    margin-top: 189px;
+}

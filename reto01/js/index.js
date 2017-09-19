@@ -1,9 +1,10 @@
 $(function(){
 
     $("#dragDropTest").dragDropTest({
-    	header: 'La siguiente actividad le ayudará a reforzar sus conocimientos con respecto al origen y el significado de la epistemología. <br> <br> Haga clic sostenido para relacionar el concepto con su definición correcta. Después de realizado el ejercicio haga clic en el botón “Verificar”.',
+    	header: 'La siguiente actividad le ayudará a reforzar sus conocimientos con respecto al origen y el significado de la epistemología. Haga clic sostenido para relacionar el concepto con su definición correcta. Después de realizado el ejercicio haga clic en el botón “Verificar”.',
     	contButtonValidate: 'Verificar',
-    	genHeight: '65px',
+    	genHeight: '58px',
+    	classOffsetColGen: "col-xs-offset-1",
     	definitions: {
 			1: "Intenta dar respuestas acerca de los principales supuestos relacionados con el conocimiento que se genera en el ámbito científico.",
 			2: "Inscribe todo propósito del conocer y hacia la cual convergen todas las explicaciones.",
@@ -28,9 +29,6 @@ $(function(){
 				content: "Filosofía",
 				goesWith: 1 //para drop 4 numero del drag numero 1
 			}
-		],
-		/*start: function(){
-			alert("Inicia el test!")
-		}*/
+		]
     });
 })

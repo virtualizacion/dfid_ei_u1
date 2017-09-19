@@ -1,6 +1,10 @@
-/*.col-md-offset-1{
-	min-width: 360px;
-}*/
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body{
+	background: url(../images/cont01/reto01/fondo_reto.jpg) no-repeat;
+	font-family: 'PT Sans', sans-serif;
+}
 
 .dragDropHeader{
 	margin-bottom: 20px;
@@ -20,11 +24,14 @@
 /*las definiciones*/
 .droppableDefinition{
 	border: 2px solid #bbc4c9;
+    font-size: 11px;
+    padding-top: 2px;
+    background-color: white;
 }
 
 /*los arrastrables*/
 .draggable{
-	font-size: 20px;
+	font-size: 16px;
 	color: #fadedc;
 	cursor: pointer;
 	z-index: 1000000;

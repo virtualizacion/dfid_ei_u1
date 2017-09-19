@@ -79,7 +79,7 @@
 
 		this.getHeaderTest = function() {
 			return '<div class="">'+
-						'<div class="col-md-12 dragDropHeader">'+settings.header+'</div>'+
+						'<div class="col-xs-11 dragDropHeader">'+settings.header+'</div>'+
 					'</div>';
 		}
 

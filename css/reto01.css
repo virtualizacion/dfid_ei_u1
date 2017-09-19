@@ -2,7 +2,7 @@ body{
     font-family: sans-serif;
     font-size: 15px;
     line-height: 140%;
-    background: url(../images/cont01/reto01/fondo_reto.png) no-repeat;
+    background: url(../images/cont01/reto01/fondo_reto.jpg) no-repeat;
 }
 #prueba{
     width: 875px;
@@ -416,4 +416,10 @@ div.simpleDropsContainer div.dropContainer:nth-child(2) div.dropElement{
 }
 div.simpleDropsContainer div.dropContainer:nth-child(3) div.dropElement{
     margin: 22px 0 0 0px;
+}
+
+/*--------------------------------------------------------------------*/
+.ifrm_reto01{
+    margin-top: 93PX;
+    border: 0;
 }

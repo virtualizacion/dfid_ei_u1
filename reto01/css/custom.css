@@ -1,0 +1,67 @@
+/*.col-md-offset-1{
+	min-width: 360px;
+}*/
+
+.dragDropHeader{
+	margin-bottom: 20px;
+}
+.dragDroppable{	
+	margin: 5px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	border-radius: 4px 4px 4px 4px;	
+}
+
+/*hacia adonde se arrastra*/
+.droppableConcept{
+	background-color: #ededef;
+	border: 2px solid #bbc4c9;
+}
+
+/*las definiciones*/
+.droppableDefinition{
+	border: 2px solid #bbc4c9;
+}
+
+/*los arrastrables*/
+.draggable{
+	font-size: 20px;
+	color: #fadedc;
+	cursor: pointer;
+	z-index: 1000000;
+}
+
+.droppableConcep.draggable{
+	border: 3px solid red;
+}
+
+.btn_validate_dragDrop{
+	-webkit-border-radius: 6px 6px 0 0;
+	border-radius: 6px 6px 0 0;
+    height: 36px;
+    width: 100px;
+    background-color: #ed1c24;
+    color: white;
+    border: 0;
+}
+
+/*Estilos personalizados*/
+
+#draggable1{
+	background-color: #e8564c;	
+}
+
+#draggable2{
+	background-color: #f6a828;
+}
+
+#draggable3{
+	background-color: #2895a9;
+}
+
+#draggable4{
+	background-color: #c13c3a;
+}
+
+#draggable5{
+	background-color: #c68318;
+}

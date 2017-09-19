@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../images/cont01/t1slide1.jpg) no-repeat;
+    overflow: hidden;
+}
+.cont01{
+    width: 900px;
+    height: 550px;
+    padding: 0;
+}
+.menuC1{
+    width: 680px;
+    height: 540px;
+    margin: 10px 0 0 175px;
+}
+.btn01-C1{
+    background: url(../images/cont01/portadilla_btn_uno.png) no-repeat;
+    width: 97px;
+    height: 40px;
+    cursor: pointer;
+    margin: 423px 0 0 35px;
+    position: absolute;
+}
+.btn02-C1{
+    background: url(../images/cont01/portadilla_btn_dos.png) no-repeat;
+    width: 118px;
+    height: 40px;
+    cursor: pointer;
+    margin: 423px 0 0 132px;
+    position: absolute;
+}
+.btn03-C1{
+    background: url(../images/cont01/portadilla_btn_tres.png) no-repeat;
+    width: 191px;
+    height: 40px;
+    cursor: pointer;
+    margin: 423px 0 0 249px;
+    position: absolute;
+}
+.btn04-C1{
+    background: url(../images/cont01/portadilla_btn_cuatro.png) no-repeat;
+    width: 135px;
+    height: 40px;
+    cursor: pointer;
+    margin: 423px 0 0 440px;
+    position: absolute;
+}
+.btn05-C1{
+    background: url(../images/cont01/portadilla_btn_cinco.png) no-repeat;
+    width: 405px;
+    height: 105px;
+    cursor: pointer;
+    margin: 423px 0 0 575px;
+    position: absolute;
+}
+.btn06-C1{
+    background: url(../images/cont01/portadilla_btn_cinco.png) no-repeat;
+    width: 405px;
+    height: 105px;
+    cursor: pointer;
+    margin: 423px 0 0 686px;
+    position: absolute;
+}
+.btn07-C1{
+    background: url(../images/cont01/portadilla_btn_siete.png) no-repeat;
+    width: 405px;
+    height: 105px;
+    cursor: pointer;
+    margin: 423px 0 0 796px;
+    position: absolute;
+}

@@ -162,8 +162,6 @@
 		this.btn_tab_s = $(".btn_tab_s");
 		this.btn_close_tab_s = $(".cls");
 		this.click_default = true;
-		this.id_last = "";
-		this.id = "";		
 	}
 
 	self.tab_s.prototype = {
@@ -195,48 +193,10 @@
 			$("#"+id_cont).hide();
 		},
 		actionBtn: function(btn){
-			//default funtionality---------------------------------------------
+
 			let id_cont = btn.data("cont-tab-s");
 			this.hideContenidos()
 			$("#"+id_cont).fadeIn();
-			//-----------------------------------------------------------------
-			
-			//aditional functions----------------------------------------------
-			//validates id of the element clicked------------------------------
-			if (btn[0]["id"] !== "") {				
-
-				this.id_last = this.id_last == "" ? btn[0]["id"] : this.id;
-
-				this.id =  btn[0]["id"];
-
-				//validate properties as need-----------------------------------
-				if (this.validateDataEstates(btn)) {
-
-					//properties the button must have---------------------
-					let id_color = btn.data("color-tab-s");
-					let id_color_active = btn.data("color-tab-s-active");
-					//----------------------------------------------------
-					console.log(this.id_last)
-					console.log(this.id)
-					//----------------------------------------------------
-					if (this.id == this.id_last) {
-						$("#"+this.id).css('background-color', id_color_active);
-					}else{
-						$("#"+this.id_last).css('background-color', id_color);
-						$("#"+this.id).css('background-color', id_color_active);
-					}
-
-				}
-				//--------------------------------------------------------------
-			}
-			//-------------------------------------------------------------------			
-		},
-		validateDataEstates: function(btn){
-			if ( (btn.data("color-tab-s") !== "") && (btn.data("color-tab-s-active") !== "") ) {
-				return true;
-			}else{
-				return false;
-			}
 		},
 		default: function(){
 

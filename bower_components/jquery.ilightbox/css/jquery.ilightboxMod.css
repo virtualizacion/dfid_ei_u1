@@ -14,7 +14,7 @@
     border: 0;
     vertical-align: baseline;
     zoom: 1;
-}     
+}
 
 #iLightbox .iLightbox-container {
     position: absolute;
@@ -42,7 +42,7 @@
     background: url(../images/back-popUp.jpg) no-repeat;
     overflow: hidden;
     max-width: 901px!important;
-    max-height: 551px!important;
+    max-height: 551px!important; 
 }
 #iLightbox .iLightbox-media [class^="iLightbox-btn"] {
     position: absolute;
@@ -118,7 +118,7 @@
     right: 0px;
     width: 54px;
     height: 54px;
-    background: url(../images/ilightbox-icons/close_v2.png) center no-repeat;
+    background: url(../images/ilightbox-icons/close.svg) center no-repeat;
     background-size: 30px auto;
     z-index: 1011;
     border-bottom-left-radius: 5px;

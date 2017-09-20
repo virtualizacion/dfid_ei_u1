@@ -1,5 +1,7 @@
 $(function(){
 
+	dr.showInst();
+
     $("#dragDropTest").dragDropTest({
     	header: 'La siguiente actividad le ayudará a reforzar sus conocimientos con respecto al origen y el significado de la epistemología. Haga clic sostenido para relacionar el concepto con su definición correcta. Después de realizado el ejercicio haga clic en el botón “Verificar”.',
     	contButtonValidate: 'Verificar',
@@ -29,6 +31,15 @@ $(function(){
 				content: "Filosofía",
 				goesWith: 1 //para drop 4 numero del drag numero 1
 			}
-		]
+		],
+		correct: function(){
+			dr.showCorrect()
+		},
+		error: function(attempts){
+			dr.showError()
+		},
+		fail: function(){
+			dr.showFail()
+		}
     });
 })

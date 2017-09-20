@@ -126,3 +126,11 @@
     display: none;
 }
 /*--------------------------------------------------------------*/
+
+.iLightbox-close{
+    background: url(../images/cerrar_internas.png) no-repeat center;
+    background-size: 30px 30px;
+    width: 30px;
+    height: 30px;
+    border: 0px;  
+}

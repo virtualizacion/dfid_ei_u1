@@ -6,6 +6,10 @@ body{
 	font-family: 'PT Sans', sans-serif;
 }
 
+#dragDropTest{
+	margin-top: 93px;
+}
+
 .dragDropHeader{
 	margin-bottom: 20px;
 }
@@ -34,7 +38,7 @@ body{
 	font-size: 16px;
 	color: #fadedc;
 	cursor: pointer;
-	z-index: 1000000;
+	z-index: 2;
 }
 
 .droppableConcep.draggable{
@@ -71,4 +75,114 @@ body{
 
 #draggable5{
 	background-color: #c68318;
+}
+
+/*------------------------------------------------------------------------------------------------------------*/
+
+.blackout{
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.blackout .instruccion{
+    width: 400px;
+    margin: 0 auto;
+    background: #FFF;
+    padding: 45px 30px 15px 30px;
+    border-radius: 40px 0 40px 0;
+    display: none;
+    text-align: center;
+    height: 150px;
+}
+.pregunta{
+    display: none;
+}
+
+.blackout .instruccion .rowInstruccion{
+/*
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+*/
+    right: 0;
+    position: relative;
+    float: right;
+    margin: -30px -26px 0 13px;
+}
+
+.blackout .instruccion .rowInstruccion .iconContainer{
+    background: url(../images/cerrar_internas.png) no-repeat;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+.blackout .instruccion h2{
+    margin: 0px;
+}
+
+.blackout .instruccion p{
+    margin-top: -18px;
+}
+
+
+.blackout .retroalimentacion{
+    display: none;
+    width: 400px;
+    margin: 90px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 40px 0 40px 0;
+    text-align: center;
+}
+
+div.retroalimentacion.correcto{
+    width: 700px;
+}
+div.retroalimentacion.correcto li{
+    text-align: justify;
+}
+.blackout .retroalimentacion h2{
+    text-align: center;
+}
+
+.blackout .retroalimentacion p{
+
+}
+
+.blackout .retroalimentacion .buttonContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.blackout .retroalimentacion button{
+    width: 160px;
+    padding: 10px 20px;
+    font-size: 12pt;
+    border-radius: 0;
+    background: #a92f34;
+    color: #fff;
+    border: none;
+}
+
+.cerrar{
+    background: url(../../images/cerrar_internas.png) no-repeat center;
+    background-size: 30px 30px;
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    margin-top: -32px;
+    position: absolute;
+    margin-left: -11px;
 }

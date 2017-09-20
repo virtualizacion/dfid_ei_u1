@@ -15,6 +15,7 @@
     <script src="bower_components/jquery-ui/jquery-ui.js"></script>
     <!-- bootstrap.js -->
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="js/helper_functions.js"></script>
     <!-- plugin-->
     <script src="js/dragDropTest.js"></script>
     <!-- main-->
@@ -24,8 +25,40 @@
     <body>
 
         <div class="container-fluid">
+            
             <div id="dragDropTest"></div>
-        </div>
+
+            <div class="blackout blackoutReto">
+
+                <!-- INSTRUCCIÓN--> 
+                <div class="instruccion instruccionReto">
+                    <div class="rowInstruccion">
+                        <button class="cerrar"></button>
+                    </div>
+                    <p class="">La siguiente actividad le ayudará a reforzar sus conocimientos con respecto al origen y el significado de la epistemología. Haga clic sostenido para relacionar el concepto con su definición correcta. Después de realizado el ejercicio haga clic en el botón “Verificar”.</p>
+                </div>
+
+                <!-- RETROALIMENTACIONES -->
+                <div class="retroalimentacion correcto">
+                    <h2>¡Es correcto!</h2>
+                    <p align="justify">Identifica el significado principal de los conceptos relacionados a la epistemología.
+                    Esto es fundamental en el proceso de orientación de una investigación y el desarrollo de procesos con estudiantes y equipos de investigación.</p>
+                </div>
+
+                <div class="retroalimentacion incorrecto">
+                    <h2>Incorrecto</h2>
+                    <p>Revise el contenido de la unidad y vuelva a intentarlo.</p>                
+                </div>
+
+                <div class="retroalimentacion otro_intento">
+                    <h2>Intente nuevamente</h2>
+                    <p>Si bien, los conceptos están intrínsecamente relacionados, es necesario diferenciar sus significados.</p>
+                    <div class="buttonContainer"><button class="btnFeedback-revisar">Revisar</button></div>
+                </div>
+
+            </div>
+
+        </div>        
 
     </body>
 

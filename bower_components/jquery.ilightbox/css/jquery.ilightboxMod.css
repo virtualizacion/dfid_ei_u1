@@ -113,17 +113,17 @@
 
 #iLightbox .iLightbox-close {
     position: absolute;
-    display: none;
-    top: 0px;
-    right: 0px;
+    /*display: none;*/
+    top: -27px;
+    right: -25px;
     width: 54px;
     height: 54px;
-    background: url(../images/ilightbox-icons/close.svg) center no-repeat;
+    background: url(../images/cerrar_internas.png) center no-repeat;
     background-size: 30px auto;
-    z-index: 1011;
+    z-index: 1;
     border-bottom-left-radius: 5px;
     filter: alpha(opacity(40));
-    opacity: 0.4;
+    opacity: 1;
     outline: none;
 }
 

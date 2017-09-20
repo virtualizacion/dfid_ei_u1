@@ -55,6 +55,13 @@
     height: 44px;
     border: 0px;
 }
+.importante1{
+    background: url(../images/importante_btn.png) no-repeat center;
+    background-size: 170px 54px;
+    width: 170px;
+    height: 54px;
+    border: 0px;
+}
 .lecturas{
     background: url(../images/lectura-btn.png) no-repeat center;
     background-size: 40px 40px;

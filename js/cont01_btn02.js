@@ -11,7 +11,7 @@ $("document").ready(function(){
     });
 
      $(document).tooltip({
-            position: {  my: "left-60 top-150 "}
+            position: {  my: "left-150 top+10"}
      });
 
 });    

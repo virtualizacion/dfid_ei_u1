@@ -28,7 +28,7 @@
 
 .cont03{
     position: absolute;
-    left: 55%;
+    left: 60%;
     top: 60%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
@@ -60,30 +60,30 @@
 
 .btn1{
     position: absolute;
-    margin: 156px 0 0 115px;
+    margin: 182px 0 0 115px;
 }
 
 .btn2{
     position: absolute;
-    margin: 189px 0 0 115px;
+    margin: 215px 0 0 115px;
 }
 
 .btn3{
     position: absolute;
-    margin: 221px 0 0 115px;
+    margin: 247px 0 0 115px;
 }
 
 .btn4{
     position: absolute;
-    margin: 256px 0 0 115px;
+    margin: 283px 0 0 115px;
 }
 .btn5{
     position: absolute;
-    margin: 287px 0 0 115px;
+    margin: 315px 0 0 115px;
 }
 .btn6{
     position: absolute;
-    margin: 320px 0 0 115px;
+    margin: 348px 0 0 115px;
 }
 body{
     overflow: hidden;

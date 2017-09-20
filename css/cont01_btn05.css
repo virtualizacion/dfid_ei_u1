@@ -1,0 +1,81 @@
+.cont04{
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.cls{
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    cursor: pointer;
+}
+.btn1{
+    position: absolute;
+    margin: 192px 0 0 438px;
+}
+.btn2 {
+    position: absolute;
+    margin: 139px 0 0 438px;}
+.btn3{
+    position: absolute;
+    margin: 167px 0 0 438px;
+}
+.btn4{
+    position: absolute;
+    margin: 218px 0 0 438px;
+}
+
+ body{
+        overflow: hidden;
+    }
+.holder {
+    display: none; 
+}
+.customBtns{
+    position: absolute;
+/*    z-index: 111;*/
+    width: 860px;
+    height: 50px;
+    margin: 250px 0 0 0;
+}
+.pgs{
+    margin: 0 auto;
+    width: 940px;
+    height: 450px;
+    position: relative; 
+}
+.cajaResalt{
+    cursor: pointer;
+    margin: 0 0 0 0;
+}
+.btnExtras{
+    position: absolute;
+    margin: 351px 0 0 794px;
+}
+.tooltip1{
+    position: absolute;
+    margin: 189px 0 0 142px;
+    width: 600px;   
+}
+.contP1{
+    overflow: hidden;
+    width: 824px;
+    height: 340px;
+    position: absolute;
+    margin: 170px 0 0 50px;
+}
+.btnExtras1{
+    position: absolute;
+    margin: 120px 0 0 66px;
+}
+.flechaRojaDerecha{
+    background: url('../images/FlechaderechaR.png') no-repeat!important;
+    
+}
+
+.flechaRojaIzquierda{
+    background: url('../images/FlechaizquierdaR.png') no-repeat!important;
+    
+}

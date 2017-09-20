@@ -10,4 +10,8 @@ $("document").ready(function(){
         last        : false
     });
 
+     $(document).tooltip({
+            position: {  my: "left-60 top-150 "}
+     });
+
 });    

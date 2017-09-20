@@ -19,7 +19,7 @@ body{
     width: 97px;
     height: 40px;
     cursor: pointer;
-    margin: 423px 0 0 35px;
+    margin: 423px 0 0 32px;
     position: absolute;
 }
 .btn02-C1{
@@ -27,7 +27,7 @@ body{
     width: 118px;
     height: 40px;
     cursor: pointer;
-    margin: 423px 0 0 132px;
+    margin: 423px 0 0 129px;
     position: absolute;
 }
 .btn03-C1{
@@ -35,7 +35,7 @@ body{
     width: 191px;
     height: 40px;
     cursor: pointer;
-    margin: 423px 0 0 249px;
+    margin: 423px 0 0 246px;
     position: absolute;
 }
 .btn04-C1{
@@ -43,30 +43,30 @@ body{
     width: 135px;
     height: 40px;
     cursor: pointer;
-    margin: 423px 0 0 440px;
+    margin: 423px 0 0 437px;
     position: absolute;
 }
 .btn05-C1{
     background: url(../images/cont01/portadilla_btn_cinco.png) no-repeat;
-    width: 405px;
-    height: 105px;
+    width: 122px;
+    height: 40px;
     cursor: pointer;
-    margin: 423px 0 0 575px;
+    margin: 423px 0 0 572px;
     position: absolute;
 }
 .btn06-C1{
-    background: url(../images/cont01/portadilla_btn_cinco.png) no-repeat;
-    width: 405px;
-    height: 105px;
+    background: url(../images/cont01/portadilla_btn_seis.png) no-repeat;
+    width: 111px;
+    height: 40px;
     cursor: pointer;
-    margin: 423px 0 0 686px;
+    margin: 423px 0 0 694px;
     position: absolute;
 }
 .btn07-C1{
     background: url(../images/cont01/portadilla_btn_siete.png) no-repeat;
-    width: 405px;
-    height: 105px;
+    width: 72px;
+    height: 40px;
     cursor: pointer;
-    margin: 423px 0 0 796px;
+    margin: 423px 0 0 804px;
     position: absolute;
 }

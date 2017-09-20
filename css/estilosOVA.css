@@ -16,7 +16,7 @@ body{
     background: url(../images/home.jpg) no-repeat;
 }
 .top{
-    background: #FFF url(../images/top.png) no-repeat;
+    background: #FFF url(../images/Top.jpg) no-repeat;
     width: 1000px;
     height: 117px;
     position: relative;
@@ -37,8 +37,8 @@ body{
     float: right;
     position: relative;
     bottom: -45px;
-    right: 5px;
-    top: 75px;
+    right: -66px;
+    top: 78px;
 }
 .btnTop{
     position: relative;

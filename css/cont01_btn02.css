@@ -96,3 +96,9 @@ body{
     background: url('../images/FlechaizquierdaR.png') no-repeat!important;
     
 }
+.tooltip1{
+    position: absolute;
+    margin: 229px 0 0 514px;
+    width: 51px;
+    height: 12px;
+}

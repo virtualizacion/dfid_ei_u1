@@ -105,6 +105,7 @@
 		            $(this).click(function(event) {
 		                window.open(link, "_blank");
 		            });
+
 		            //-----------------------------------
 		        }
 		    });

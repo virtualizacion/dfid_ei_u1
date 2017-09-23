@@ -21,8 +21,36 @@ body{
 
 .btnExtras{
     position: absolute;
-    margin: 80px 0 0 750px;
+    margin: 116px 0 0 65px;
 }
+.posExtras{
+    padding: 0px;
+    margin: -161px 0px 0px 106px;    
+}
+.posExtras1{
+    margin: -260px 0px 0px 126px;
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+}
+.posExtras2{
+    margin: -34px 0px 0px 346px;
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+}
+.posExtras3{
+    margin: -36px 0px 0px 563px;
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+}
+.posExtras4{
+    margin: -70px 0px 0px 518px;
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+}    
 
 .black{
     width: 100%;
@@ -48,16 +76,16 @@ body{
 }
 .cls{
     position: absolute;
-    right: 1px;
-    top: 1px;
+    right: 165px;
+    top: 175px;
     cursor: pointer;
 }
-.flechaAzulDerecha{
-    background: url('../images/cont02/Btn01/arrowN.svg') no-repeat!important;
+.flechaRojaDerecha{
+    background: url('../images/FlechaderechaR.png') no-repeat!important;
     
 }
 
-.flechaAzulIzquierda{
-    background: url('../images/cont02/Btn01/arrowP.svg') no-repeat!important;
+.flechaRojaIzquierda{
+    background: url('../images/FlechaizquierdaR.png') no-repeat!important;
     
 }

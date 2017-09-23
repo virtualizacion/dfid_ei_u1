@@ -1,55 +1,164 @@
-body{
+/*body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: url(../images/cont03/fondo.png) no-repeat;
-}
+    background: url(../images/cont02/Tema-2-slide-1.jpg) no-repeat;
+}*/
 .cont01{
     width: 900px;
     height: 550px;
     padding: 0;
 }
-/*.menuC1{
+.menuC1{
     width: 680px;
     height: 540px;
     margin: 10px 0 0 175px;
-}*/
+}
 .btn01-C1{
-    background: url(../images/cont03/btn01-C1.png) no-repeat;
-    width: 400px;
-    height: 105px;
+    background: url(../images/cont03/portadilla_bnt_uno.png) no-repeat;
+    width: 132px;
+    height: 149px;
     cursor: pointer;
-    margin: 130px 0 0 465px;
+    margin: 266px 0 0 211px;
     position: absolute;
 }
 .btn02-C1{
-    background: url(../images/cont03/btn02-C1.png) no-repeat;
-    width: 540px;
-    height: 115px;
+    background: url(../images/cont03/portadilla_bnt_dos.png) no-repeat;
+    width: 131px;
+    height: 158px;
     cursor: pointer;
-    margin: 180px 0 0 30px;
+    margin: 257px 0 0 343px;
     position: absolute;
 }
 .btn03-C1{
-    background: url(../images/cont03/btn03-C1.png) no-repeat;
-    width: 500px;
-    height: 115px;
+    background: url(../images/cont03/portadilla_bnt_tres.png) no-repeat;
+    width: 132px;
+    height: 158px;
     cursor: pointer;
-    margin: 310px 0 0 430px;
+    margin: 257px 0 0 474px;
     position: absolute;
 }
 .btn04-C1{
-    background: url(../images/cont03/btn04-C1.png) no-repeat;
-    width: 500px;
-    height: 115px;
+    background: url(../images/cont03/portadilla_bnt_cuatro.png) no-repeat;
+    width: 132px;
+    height: 159px;
     cursor: pointer;
-    margin: 340px 0 0 100px;
+    margin: 256px 0 0 606px;
     position: absolute;
 }
-.volver{
+.btn05-C1{
+    background: url(../images/cont02/portadilla_bnt_cinco.png) no-repeat;
+    width: 121px;
+    height: 40px;
     cursor: pointer;
-    float: right;
-    margin: -2px 0 0 0;
+    margin: 508px 0 0 556px;
     position: absolute;
-    right: 40px;
 }
+.btn06-C1{
+    background: url(../images/cont02/reto.png) no-repeat;
+    width: 72px;
+    height: 40px;
+    cursor: pointer;
+    margin: 508px 0 0 676px;
+    position: absolute;
+}
+body{
+        overflow: hidden;
+    }
+.holder {
+    display: none; 
+}
+.customBtns{
+    position: absolute;
+/*    z-index: 111;*/
+    width: 860px;
+    height: 50px;
+    margin: 250px 0 0 0;
+}
+
+.pgs{
+    margin: 0 auto;
+    width: 940px;
+    height: 450px;
+    position: relative; 
+}
+
+.btnExtras{
+    position: absolute;
+    margin: 142px 0 0 67px;
+}
+.btnExtras1{
+    position: absolute;
+    margin: 171px 0 0 685px;
+}
+.black{
+    width: 100%;
+    height: 100%;
+    background: rgba(37, 48, 16, 0.95);
+    position: absolute;
+    z-index: 3;
+}
+.cont{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.botones2{
+    position: absolute;
+    margin: 120px 0 0 745px;
+}
+.cajaResalt{
+    cursor: pointer;
+    margin: 0 0 0 0;
+}
+.cls{
+    position: absolute;
+    right: 183px;
+    top: 253px;
+    cursor: pointer;
+}
+.flechaRojaDerecha{
+    background: url('../images/FlechaderechaR.png') no-repeat!important;
+    
+}
+
+.flechaRojaIzquierda{
+    background: url('../images/FlechaizquierdaR.png') no-repeat!important;
+    
+}
+.posExtras{
+    padding: 0px;
+    margin: -166px 0px 0px 139px;    
+}
+.posExtras1{
+    width: 132px;
+    height: 149px;
+    cursor: pointer;
+    margin: -283px 0 0 211px;
+}
+.posExtras2{
+    width: 131px;
+    height: 158px;
+    cursor: pointer;
+    margin: -158px 0 0 343px;
+}
+.posExtras3{
+    width: 132px;
+    height: 158px;
+    cursor: pointer;
+    margin: -158px 0 0 474px;
+}
+.posExtras4{
+    width: 132px;
+    height: 159px;
+    cursor: pointer;
+    margin: -159px 0 0 606px;
+}   
+.cls1{
+    position: absolute;
+    right: -6px;
+    top: -11px;
+    cursor: pointer;
+} 

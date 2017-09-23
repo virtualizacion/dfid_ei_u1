@@ -24,8 +24,8 @@
 }
 .cont02{
     position: absolute;
-    left: 55%;
-    top: 60%;
+    left: 48%;
+    top: 61%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
 }
@@ -45,15 +45,23 @@
 }
 .btn1{
     position: absolute;
-    margin: 400px 0 0 260px;
+    margin: 272px 0 0 133px;
 }
 .btn2{
     position: absolute;
-    margin: 168px 0 0 130px;
+    margin: 272px 0 0 347px;
 }
 .btn3{
     position: absolute;
-    margin: 105px 0 0 435px;
+    margin: 272px 0 0 561px;
+}
+.btn4{
+    position: absolute;
+    margin: 329px 0 0 245px;
+}
+.btn5{
+    position: absolute;
+    margin: 329px 0 0 461px;
 }
 .btnExtras{
     position: absolute;

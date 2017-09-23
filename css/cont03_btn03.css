@@ -58,7 +58,15 @@
     margin-top: 70px;
     margin-left: 10px;
 }
+.flechaRojaDerecha{
+    background: url('../images/FlechaderechaR.png') no-repeat!important;
+    
+}
 
+.flechaRojaIzquierda{
+    background: url('../images/FlechaizquierdaR.png') no-repeat!important;
+    
+}
 
 
 

@@ -1,48 +1,119 @@
-body{
+/*body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: url(../images/cont04/fondo_impacto.png) no-repeat;
-}
+    background: url(../images/cont02/Tema-2-slide-1.jpg) no-repeat;
+}*/
 .cont01{
     width: 900px;
     height: 550px;
     padding: 0;
 }
-/*.menuC1{
+.menuC1{
     width: 680px;
     height: 540px;
     margin: 10px 0 0 175px;
-}*/
+}
 .btn01-C1{
-    background: url(../images/cont04/btn01-C1.png) no-repeat;
-    width: 457px;
-    height: 112px;
+    background: url(../images/cont04/portadilla_bnt_uno.png) no-repeat;
+    width: 97px;
+    height: 40px;
     cursor: pointer;
-    margin: 142px 0 0 325px;
+    margin: 455px 0 0 204px;
     position: absolute;
 }
 .btn02-C1{
-    background: url(../images/cont04/btn02-C1.png) no-repeat;
-    width: 459px;
-    height: 112px;
+    background: url(../images/cont04/portadilla_bnt_dos.png) no-repeat;
+    width: 98px;
+    height: 40px;
     cursor: pointer;
-    margin: 262px 0 0 116px;
+    margin: 456px 0 0 300px;
     position: absolute;
+}
+.btn03-C1{
+    background: url(../images/cont04/portadilla_bnt_tres.png) no-repeat;
+    width: 97px;
+    height: 40px;
+    cursor: pointer;
+    margin: 456px 0 0 397px;
+    position: absolute;
+}
+.btn04-C1{
+    background: url(../images/cont04/portadilla_bnt_cuatro.png) no-repeat;
+    width: 146px;
+    height: 40px;
+    cursor: pointer;
+    margin: 456px 0 0 493px;
+    position: absolute;
+}
+.btn05-C1{
+    background: url(../images/cont04/portadilla_bnt_cinco.png) no-repeat;
+    width: 77px;
+    height: 40px;
+    cursor: pointer;
+    margin: 456px 0 0 638px;
+    position: absolute;
+}
+body{
+        overflow: hidden;
+    }
+.holder {
+    display: none; 
+}
+.customBtns{
+    position: absolute;
+/*    z-index: 111;*/
+    width: 860px;
+    height: 50px;
+    margin: 250px 0 0 0;
 }
 
-.btn03-C1{
-    background: url(../images/cont04/btn03-C1.png) no-repeat;
-    width: 500px;
-    height: 117px;
-    cursor: pointer;
-    margin: 380px 0 0 325px;
-    position: absolute;
+.pgs{
+    margin: 0 auto;
+    width: 940px;
+    height: 450px;
+    position: relative; 
 }
-.volver{
-    cursor: pointer;
-    float: right;
-    margin: -2px 0 0 0;
+
+.btnExtras{
     position: absolute;
-    right: 40px;
+    margin: 99px 0 0 67px;
+}
+
+.black{
+    width: 100%;
+    height: 100%;
+    background: rgba(37, 48, 16, 0.95);
+    position: absolute;
+    z-index: 3;
+}
+.cont{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.botones2{
+    position: absolute;
+    margin: 120px 0 0 745px;
+}
+.cajaResalt{
+    cursor: pointer;
+    margin: 0 0 0 0;
+}
+.cls{
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    cursor: pointer;
+}
+.flechaRojaDerecha{
+    background: url('../images/FlechaderechaR.png') no-repeat!important;
+    
+}
+
+.flechaRojaIzquierda{
+    background: url('../images/FlechaizquierdaR.png') no-repeat!important;
+    
 }

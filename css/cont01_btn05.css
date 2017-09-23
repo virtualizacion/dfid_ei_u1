@@ -59,13 +59,6 @@
     margin: 189px 0 0 142px;
     width: 600px;   
 }
-.contP1{
-    overflow: hidden;
-    width: 824px;
-    height: 340px;
-    position: absolute;
-    margin: 170px 0 0 50px;
-}
 .btnExtras1{
     position: absolute;
     margin: 120px 0 0 66px;
@@ -78,4 +71,49 @@
 .flechaRojaIzquierda{
     background: url('../images/FlechaizquierdaR.png') no-repeat!important;
     
+}
+.botonesP1{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0 0 60px;
+}
+.contP1{
+    overflow: hidden;
+    width: 681px;
+    height: 121px;
+    position: absolute;
+    margin: 114px 0px 0px 94px;
+    /*border: 1px solid;*/
+    background-color: white;
+    padding: 15px;
+}
+.btnP1{
+    width: 208px;
+    height: 31px;
+    /* margin: 37px 0 -6px 20px; */
+    cursor: pointer;
+}
+.btnP1:hover{
+  background-color: #707070;
+}
+
+.btn_tab_col{
+    background-color: #707070;
+    /*border: 1px solid;*/
+    width: 170px;
+}
+
+.cont_tab_pos{
+    /* margin-left: 25px; */
+    margin-top: 10px;
+}
+
+.pos_tab_cont{
+    margin-top: 204px;
+}
+
+.pos_tab_btn{
+    margin-left: 112px;
+    margin-top: 172px;
 }

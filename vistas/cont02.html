@@ -1,46 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <title>Cont02 Btn01</title>
+    <!--  -->
+    <link rel="stylesheet" href="../css/style_btn.css">
     <link rel="stylesheet" href="../css/cont02.css">
     <link rel="stylesheet" href="../css/generic.css">
 
     <!-- jQuery -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>
-    <!-- jQuery UI-->
     <script src="../bower_components/jquery-ui/jquery-ui.min.js"></script>
-    <!-- javascript functions-->
     <script src="../js/helper_functions.js"></script>
-    <!-- custom js-->
+    <script src="../js/jPages.js"></script>
     <script src="../js/cont02.js"></script>
 
+
 </head>
-<body>
-    <div class="cont01">
-        
-        <div class="telonCont">
 
-            <button class="volver"></button>
+<body class="backgroud_popup">
 
-            <div id="cont_int_01" data-src="cont02_btn01.html"></div>
-            <div id="cont_int_02" data-src="cont02_btn02.html"></div>
-            <div id="cont_int_03" data-src="cont02_btn03.html"></div>
-            
-            
-            <div id="cont_int_04" data-src="cont02_btn04.html"></div>
-            <div id="cont_int_05" data-src="cont02_reto02.html"></div>            
+  <div id="container" class="clearfix">
+
+    <div id="content" class="defaults">
+
+   <!-- navigation holder -->
+    <div class="holder"></div>
+
+    <!-- wrapped custom buttons for easier styling -->
+    <div class="customBtns">
+      <span class="arrowPrev flechaAzulIzquierda"></span>
+      <span class="arrowNext flechaAzulDerecha"></span>
+    </div>
+
+    <div class="black black_not_lert">
+
+        <div class="cont cont_not_lert" id="C1">
+            <button class="cls cerrar cls_not_lert"></button>
+            <img src="../images/cont02/Btn01/sistemarecuerde.png">            
         </div>
-           
-           
-        <div>            
-            <div class="btn01-C1" id="btn_tl_01" data-id-cont-tl="cont_int_01" data-opacity="true"></div>
-            <div class="btn02-C1" id="btn_tl_02" data-id-cont-tl="cont_int_02" data-opacity="true"></div>
-            <div class="btn03-C1" id="btn_tl_03" data-id-cont-tl="cont_int_03" data-opacity="true"></div>
-            <div class="btn04-C1" id="btn_tl_04" data-id-cont-tl="cont_int_04" data-opacity="true"></div>
-            <div class="btn05-C1" id="btn_tl_05" data-id-cont-tl="cont_int_05" data-opacity="true"></div>
+
+        <div class="cont cont_not_lert" id="C2">
+            <button class="cls cerrar cls_not_lert"></button>
+            <img src="../images/cont02/Btn01/sistematengaencuenta.png">
         </div>
 
     </div>
 
+    <!-- item container -->
+    <div class="pgs">
+         <ul id="itemContainer">
+            <li>
+                <div class="btnExtras">
+                    <img src="../images/cont02/mensaje.png"> 
+                </div> 
+                <img src="../images/cont02/Tema-2-slide-1.jpg">
+            </li>
+            <li>  
+                <div class="btnExtras">
+                    <img src="../images/cont02/info1.png"> 
+                </div>   
+                <img src="../images/cont02/Tema-2-slide-1.jpg"> 
+            </li>
+            <li>
+              <div class="cont01">
+        
+              <div class="telonCont">
+
+                <button class="volver"></button>
+
+           
+                  <div id="cont_int_01" data-src="cont02_btn01.html"></div>
+                  <div id="cont_int_02" data-src="cont02_btn02.html"></div>
+                  <div id="cont_int_03" data-src="cont02_btn03.html"></div>
+            
+            
+                  <div id="cont_int_04" data-src="cont02_btn04.html"></div>
+                  <div id="cont_int_05" data-src="cont02_btn05.html"></div>
+                  <div id="cont_int_06" data-src="cont02_reto02.html"></div>            
+              </div>
+           
+           
+                <div>            
+                    <div class="btn01-C1" id="btn_tl_01" data-id-cont-tl="cont_int_01" data-opacity="true"></div>
+                    <div class="btn02-C1" id="btn_tl_02" data-id-cont-tl="cont_int_02" data-opacity="true"></div>
+                    <div class="btn03-C1" id="btn_tl_03" data-id-cont-tl="cont_int_03" data-opacity="true"></div>
+                    <div class="btn04-C1" id="btn_tl_04" data-id-cont-tl="cont_int_04" data-opacity="true"></div>
+                    <div class="btn05-C1" id="btn_tl_05" data-id-cont-tl="cont_int_05" data-opacity="true"></div>
+                    <div class="btn06-C1" id="btn_tl_06" data-id-cont-tl="cont_int_06" data-opacity="true"></div>
+                </div>
+                <div class="btnExtras">
+                    <img src="../images/cont02/info2.png"> 
+                </div> 
+            <img src="../images/cont02/Tema-2-slide-1.jpg"> 
+            </div>
+
+            </li>
+        </ul>
+    </div>
+
+  </div>
+  <!--! end of #content -->
+</div>
+<!--! end of #container -->
+
+
 </body>
+
 </html>

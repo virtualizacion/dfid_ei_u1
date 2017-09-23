@@ -65,9 +65,49 @@ body{
     margin: 100px 0 0 60px;
 }
 .btnExtras{
-    position: absolute;
-    margin: 445px 0 0 750px;
+    padding: 0px;
+    margin: -311px 0px 0px 108px;   
 }
+.btnExtras1{
+    position: absolute;
+    margin: 500px 0 0 750px;
+}
+.posExtras1{
+    width: 154px;
+    height: 150px;
+    cursor: pointer;
+    margin: -374px 0 0 437px;
+}
+.posExtras2{
+    width: 155px;
+    height: 118px;
+    cursor: pointer;
+    margin: -150px 0 0 557px;
+}
+.posExtras3{
+    width: 121px;
+    height: 150px;
+    cursor: pointer;
+    margin: -118px 0 0 678px;
+}
+.posExtras4{
+    width: 154px;
+    height: 128px;
+    cursor: pointer;
+    margin: -33px 0 0 437px;
+}   
+.posExtras5{
+    width: 155px;
+    height: 150px;
+    cursor: pointer;
+    margin: -160px 0 0 557px;
+}
+.posExtras6{
+    width: 122px;
+    height: 130px;
+    cursor: pointer;
+    margin: -118px 0 0 677px;
+}   
 .cont{
     position: absolute;
     left: 50%;
@@ -77,8 +117,8 @@ body{
 }
 .cls{
     position: absolute;
-    right: 1px;
-    top: 1px;
+    right: 146px;
+    top: 105px;
     cursor: pointer;
 }
 .black{
@@ -92,12 +132,12 @@ body{
     cursor: pointer;
     margin: 0 0 0 0;
 }
-.flechaVerdeDerecha{
-    background: url('../images/cont04/Btn01/flecha_derecha.png') no-repeat!important;
+.flechaRojaDerecha{
+    background: url('../images/FlechaderechaR.png') no-repeat!important;
     
 }
 
-.flechaVerdeIzquierda{
-    background: url('../images/cont04/Btn01/flecha_izquierda.png') no-repeat!important;
+.flechaRojaIzquierda{
+    background: url('../images/FlechaizquierdaR.png') no-repeat!important;
     
 }

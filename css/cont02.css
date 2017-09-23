@@ -1,9 +1,9 @@
-body{
+/*body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: url(../images/cont02/t1slide1.jpg) no-repeat;
-}
+    background: url(../images/cont02/Tema-2-slide-1.jpg) no-repeat;
+}*/
 .cont01{
     width: 900px;
     height: 550px;
@@ -16,41 +16,112 @@ body{
 }
 .btn01-C1{
     background: url(../images/cont02/portadilla_bnt_uno.png) no-repeat;
-    width: 586px;
-    height: 121px;
+    width: 127px;
+    height: 40px;
     cursor: pointer;
-    margin: 140px 0 0 450px;
+    margin: 508px 0 0 26px;
     position: absolute;
 }
 .btn02-C1{
     background: url(../images/cont02/portadilla_bnt_dos.png) no-repeat;
-    width: 405px;
-    height: 117px;
+    width: 128px;
+    height: 40px;
     cursor: pointer;
-    margin: 140px 0 0 20px;
+    margin: 508px 0 0 153px;
     position: absolute;
 }
 .btn03-C1{
     background: url(../images/cont02/portadilla_bnt_tres.png) no-repeat;
-    width: 405px;
-    height: 119px;
+    width: 141px;
+    height: 40px;
     cursor: pointer;
-    margin: 280px 0 0 20px;
+    margin: 508px 0 0 280px;
     position: absolute;
 }
 .btn04-C1{
     background: url(../images/cont02/portadilla_bnt_cuatro.png) no-repeat;
-    width: 405px;
-    height: 105px;
+    width: 135px;
+    height: 40px;
     cursor: pointer;
-    margin: 280px 0 0 450px;
+    margin: 508px 0 0 421px;
     position: absolute;
 }
 .btn05-C1{
     background: url(../images/cont02/portadilla_bnt_cinco.png) no-repeat;
-    width: 405px;
-    height: 105px;
+    width: 121px;
+    height: 40px;
     cursor: pointer;
-    margin: 420px 0 0 20px;
+    margin: 508px 0 0 556px;
     position: absolute;
+}
+.btn06-C1{
+    background: url(../images/cont02/reto.png) no-repeat;
+    width: 72px;
+    height: 40px;
+    cursor: pointer;
+    margin: 508px 0 0 676px;
+    position: absolute;
+}
+body{
+        overflow: hidden;
+    }
+.holder {
+    display: none; 
+}
+.customBtns{
+    position: absolute;
+/*    z-index: 111;*/
+    width: 860px;
+    height: 50px;
+    margin: 250px 0 0 0;
+}
+
+.pgs{
+    margin: 0 auto;
+    width: 940px;
+    height: 450px;
+    position: relative; 
+}
+
+.btnExtras{
+    position: absolute;
+    margin: 99px 0 0 67px;
+}
+
+.black{
+    width: 100%;
+    height: 100%;
+    background: rgba(37, 48, 16, 0.95);
+    position: absolute;
+    z-index: 3;
+}
+.cont{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.botones2{
+    position: absolute;
+    margin: 120px 0 0 745px;
+}
+.cajaResalt{
+    cursor: pointer;
+    margin: 0 0 0 0;
+}
+.cls{
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    cursor: pointer;
+}
+.flechaAzulDerecha{
+    background: url('../images/cont02/Btn01/arrowN.svg') no-repeat!important;
+    
+}
+
+.flechaAzulIzquierda{
+    background: url('../images/cont02/Btn01/arrowP.svg') no-repeat!important;
+    
 }

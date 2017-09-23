@@ -12,7 +12,7 @@
     float: right;
     margin: -2px 0 0 0;
     position: absolute;
-    right: 40px;
+    right: -1px;
 
     background: url(../images/btnVolver.png) no-repeat center 100%;
     width: 160px;
@@ -40,6 +40,20 @@
     height: 40px;
     border: 0px;
 }
+.tenerCuenta1{
+    background: url(../images/tenerCuenta1.png) no-repeat center;
+    background-size: 148px 54px;
+    width: 148px;
+    height: 54px;
+    border: 0px;
+}
+.ideasClave{
+    background: url(../images/btn_ideaClave.png) no-repeat center;
+    background-size: 175px 54px;
+    width: 175px;
+    height: 54px;
+    border: 0px;
+}
 
 .recuerdeque{
     background: url(../images/recuerde.png) no-repeat center;
@@ -53,6 +67,13 @@
     background-size: 44px 44px;
     width: 44px;
     height: 44px;
+    border: 0px;
+}
+.importante1{
+    background: url(../images/importante_btn.png) no-repeat center;
+    background-size: 170px 54px;
+    width: 170px;
+    height: 54px;
     border: 0px;
 }
 .lecturas{
@@ -115,8 +136,8 @@
 }
 .arrowNext{
     background: url('../images/cont01/Btn02/Flechaderecha.png') no-repeat;
-    right: 0px;
-    width: 46px;
+    right: -24px;
+    width: 55px;
     height: 56px;
     z-index: 100;
     margin: -50px 0 0 0px;

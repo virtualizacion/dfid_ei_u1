@@ -66,7 +66,11 @@ body{
 }
 .btnExtras{
     position: absolute;
-    margin: 445px 0 0 750px;
+    margin: -253px 0 0 542px;
+}
+.btnExtras1{
+    position: absolute;
+    margin: 148px 0 0 51px;
 }
 .cont{
     position: absolute;
@@ -113,12 +117,12 @@ body{
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
 }
-.flechaVerdeDerecha{
-    background: url('../images/cont04/Btn01/flecha_derecha.png') no-repeat!important;
+.flechaRojaDerecha{
+    background: url('../images/FlechaderechaR.png') no-repeat!important;
     
 }
 
-.flechaVerdeIzquierda{
-    background: url('../images/cont04/Btn01/flecha_izquierda.png') no-repeat!important;
+.flechaRojaIzquierda{
+    background: url('../images/FlechaizquierdaR.png') no-repeat!important;
     
 }

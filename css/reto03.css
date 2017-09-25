@@ -1,4 +1,4 @@
-body{
+/*body{
     font-family: sans-serif;
     font-size: 15px;
     line-height: 140%;
@@ -37,12 +37,7 @@ body{
 }
 
 .blackout .instruccion .rowInstruccion{
-/*
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    width: 100%;
-*/
+
     right: 0;
     position: relative;
     float: right;
@@ -104,18 +99,12 @@ div.retroalimentacion.correcto li{
     border: 1px solid lightgray;
     cursor: pointer;
 }
-
+*/
 
 /* --------------------------------------------------------------------------------------------- */
 
 
 div.dragDropBtnContainer{
-/*
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-*/
     position: absolute;
     margin: -35px 0 0 0;
     right: 30px;

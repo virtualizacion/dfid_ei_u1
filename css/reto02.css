@@ -2,11 +2,11 @@ body{
     font-family: sans-serif;
     font-size: 15px;
     line-height: 140%;
-    background: url(../images/cont02/reto02/fondoreto.jpg) no-repeat;
+    background: url(../images/cont02/reto02/fondo_reto.jpg) no-repeat;
 }
 #prueba{
     width: 875px;
-    margin: 65px auto;
+    margin: 65px 0;
 }
 
 .blackout{
@@ -62,7 +62,7 @@ body{
 }
 
 .blackout .instruccion p{
-    
+
 }
 
 
@@ -77,7 +77,13 @@ body{
 }
 
 div.retroalimentacion.correcto{
-    width: 700px;
+    /*Se modifica el ancho para que quepa todo
+    en el contenedor
+    width: 400px;
+    */
+
+
+    width: 650px;
 }
 div.retroalimentacion.correcto li{
     text-align: justify;
@@ -116,9 +122,11 @@ div.dragDropBtnContainer{
     flex-direction: column;
     align-items: flex-end;
 */
+
+    /*Se modifica el margin para que quepa en el contenedor*/
     position: absolute;
-    margin: -45px 8px 0 0;
-    right: 90px;
+    margin: -25px 0 0 0;
+    right: 30px;
 }
 
 button.dragDropButton{
@@ -132,9 +140,6 @@ button.dragDropButton{
     border: none;
     color: #fff;
     cursor: pointer;
-
-    margin-top: 30px;
-    margin-right: -43px;
 }
 
 div.simpleDropElement img, div.categoryDropElement img{
@@ -164,44 +169,38 @@ div.simpleDropElement img, div.categoryDropElement img{
 /*------------------------------- SIMPLE -------------------------------------- */
 
 div.dragDropContainer{
-    /*display: flex;
-    flex-direction: row;*/
-
     display: flex;
-    flex-direction: row;
-    margin-top: 160px;
-    /**/margin-left: 27px;
+    flex-direction: column;
 }
 
 div.simpleDropsContainer{
     display:flex;
     flex-direction: column;
     flex: 1;
-    margin: 17px 0 0 11px;
+    height: 340px;
+    margin: 48px 0 0 94px;
+    position: relative;
 }
 
 div.simpleDragContainer{
-    display:flex;
-    flex-direction: column;
-    margin: -11px 0 0 440px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 140px;
     flex: 1;
 }
 
 div.simpleDropsContainer div.dropContainer{
-/*
-    display:flex;
+/*    display:flex;*/
     flex-direction: row;
-    background-color: lightgray;
-    margin: 5px;
+    margin: 0;
     padding: 10px;
-*/
 }
 
 div.simpleDropsContainer div.dropContainer div.eleDropContainer{
-    display:flex;
-    flex-direction: row;
+/*    display:flex;*/
+/*    flex-direction: row;*/
     align-items:center;
-    flex: 3;
+/*    flex: 3;*/
 }
 
 div.simpleDropsContainer div.dropContainer div.eleDropContainer span{
@@ -217,25 +216,31 @@ div.simpleDropsContainer div.dropContainer div.eleDropContainer .audiobtn{
 }
 
 div.simpleDropsContainer div.dropContainer div.dropElement{
-/*    background: rgba(56, 255, 90, 0.33);*/
-    border: none;
-    height: 49px;
+    /* position: absolute; */
+    /* background-color: #fff; */
+    /* border: 1px solid #CCC; */
+    /* border-radius: 8px; */
+    height: 190px;
+    width: 800px;
     display: flex;
     /* flex-direction: row; */
     /* align-items: center; */
-    /* flex: 2; */
-    width: 135px;
-    margin: 0 100 5px 50px;
+    flex: 2;
+    border: 1px solid;
+    margin-left: -62px;
 }
 
 div.simpleDragContainer div.dragCol{
     display: flex;
-/*    flex: 1;*/
-    flex-direction: column;
+    flex: 1;
+    flex-direction: row;
+    margin: 0;
 }
 
 div.dragElement{
-    margin: 0 auto;
+    margin: 6px 0 0 0;
+    width: 137px;
+    height: 41x;
 }
 
 div.dragElement:hover{
@@ -243,9 +248,8 @@ div.dragElement:hover{
 }
 
 div.simpleDragContainer div.dragElement img{
-    width: 126px;
-    height: 45px;
-    border: none;
+     width: 137px;
+    height: 41x;
 }
 
 div.simpleDragContainer div.dragElement span{
@@ -297,6 +301,7 @@ div.categoryDropsContainer{
 }
 
 div.categoryDropsContainer div.dropContainer{
+    margin: 97px 0 0 0;
 /*
     display:flex;
     flex-direction: column;
@@ -337,8 +342,15 @@ div.categoryDropsContainer div.dropContainer div.dropElement{
     display: flex;
     flex: 5;
 */
-    width: 440px;
-    height: 446px;
+    /*width: 440px;
+    height: 348px;*/
+
+    /*Se modifica el contenedor de las respuestas que se adapte
+    al nuevo diseño*/
+    width: 450px;
+    height: 370px;
+    /*border: 1px solid;*/
+    margin-top: -35px;
 }
 
 div.categoryDragsContainer{
@@ -354,9 +366,18 @@ div.categoryDragsContainer{
 }
 
 div.categoryDragContainer{
+    /*display: flex;
+    flex: 1;
+    flex-direction: column;*/
+
+    /*Se redimensiona el contenedor
+    de las respuestas al nuevo diseño*/
+
     display: flex;
     flex: 1;
     flex-direction: column;
+    margin-right: 240px;
+    margin-top: 80px;
 }
 
 
@@ -375,8 +396,9 @@ div.categoryDragContainer div.dragElement span{
 }
 
 div.categoryDragContainer div.dragElement img{
-    width: 389px;
-    height: 73px;
+    /*Se dejan los tamaños de las imagenes como vienen*/
+    /*width: 104px;
+    height: 39px;*/
 }
 
 div.categoryDragContainer div.dragElement .audiobtn{
@@ -388,5 +410,16 @@ div.categoryDragContainer div.dragElement .audiobtn{
     text-align: center;
 }
 
+/*NEWs*/
+div.simpleDropsContainer div.dropContainer:nth-child(2) div.dropElement{
+    margin: 2px 0 0 0px;
+}
+div.simpleDropsContainer div.dropContainer:nth-child(3) div.dropElement{
+    margin: 22px 0 0 0px;
+}
 
-
+/*--------------------------------------------------------------------*/
+.ifrm_reto02{
+    /*margin-top: 93PX;*/
+    border: 0;
+}

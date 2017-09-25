@@ -10,5 +10,10 @@ $("document").ready(function(){
         last        : false
     });
     
-    
+    //
+    $( "[class^='btn0']" ).click(function(event) {
+    	$(".flechaAzulIzquierda").css("display", "none")	
+    });
+
+    //console.log(tl)
 });    

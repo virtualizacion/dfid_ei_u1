@@ -9,5 +9,8 @@ $("document").ready(function(){
         next        : "span.arrowNext",
         last        : false
     });
-
+    
+    $( "[class^='btn0']" ).click(function(event) {
+    	$(".flechaRojaIzquierda").css("display", "none")	
+    });
 });    

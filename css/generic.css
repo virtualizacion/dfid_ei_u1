@@ -140,7 +140,7 @@
     width: 55px;
     height: 56px;
     z-index: 100;
-    margin: -50px 0 0 0px;
+    margin: -50px 0px 0px 0px;
 }
 
 .arrowPrev.jp-disabled, .arrowNext.jp-disabled{

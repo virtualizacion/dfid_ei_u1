@@ -116,12 +116,12 @@ body{
     top: 1px;
     cursor: pointer;
 }
-.flechaAzulDerecha{
-    background: url('../images/cont02/Btn01/arrowN.svg') no-repeat!important;
+.flechaRojaDerecha{
+    background: url('../images/FlechaderechaR.png') no-repeat!important;
     
 }
 
-.flechaAzulIzquierda{
-    background: url('../images/cont02/Btn01/arrowP.svg') no-repeat!important;
+.flechaRojaIzquierda{
+    background: url('../images/FlechaizquierdaR.png') no-repeat!important;
     
 }

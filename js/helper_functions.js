@@ -73,6 +73,10 @@
 	        }, 400, 'linear', function(){
 	        	//esconde los contenidos interiores
 	            self.hideContInt()
+	            console.log("Cerró el contenido!")
+	            //modificacion especial por contenidos distintos
+	            $(".flechaAzulIzquierda").css("display", "");
+	            $(".flechaRojaIzquierda").css("display", "");
 	        });
 		},
 		createIframe: function(src){

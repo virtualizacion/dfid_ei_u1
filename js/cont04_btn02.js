@@ -10,4 +10,5 @@ $("document").ready(function(){
         last        : false
     });
 
+    $('.bxslider').bxSlider();
 });    

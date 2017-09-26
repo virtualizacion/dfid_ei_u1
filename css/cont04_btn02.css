@@ -117,8 +117,8 @@ body{
 }
 .cls{
     position: absolute;
-    right: 146px;
-    top: 105px;
+    right: 150px;
+    top: 109px;
     cursor: pointer;
 }
 .black{
@@ -140,4 +140,10 @@ body{
 .flechaRojaIzquierda{
     background: url('../images/FlechaizquierdaR.png') no-repeat!important;
     
+}
+
+.clsPos{
+    z-index: 3;
+    right: -10px;
+    top: -8px;
 }

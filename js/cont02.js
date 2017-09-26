@@ -12,7 +12,7 @@ $("document").ready(function(){
     
     //
     $( "[class^='btn0']" ).click(function(event) {
-    	$(".flechaAzulIzquierda").css("display", "none")	
+    	$(".flechaRojaIzquierda").css("display", "none")	
     });
 
     //console.log(tl)

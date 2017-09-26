@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>reto01</title>
+
+    <meta charset="UTF-8">
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <!-- jQuery -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <!-- jQuery UI-->
+    <script src="bower_components/jquery-ui/jquery-ui.js"></script>
+    <!-- bootstrap.js -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="js/helper_functions.js"></script>
+    <!-- plugin-->
+    <script src="js/dragDropTest.js"></script>
+    <!-- main-->
+    <script src="js/index.js"></script>
+</head>
+
+    <body>
+
+        <div class="container-fluid">
+            
+            <div id="dragDropTest"></div>
+
+            <div class="blackout blackoutReto">
+
+                <!-- INSTRUCCIÓN--> 
+                <div class="instruccion instruccionReto">
+                    <div class="rowInstruccion">
+                        <button class="cerrar"></button>
+                    </div>
+                    <p class="">A continuación encontrará algunos de los modelos epistémicos tratados anteriormente, para que compruebe su proceso de estudio. 
+                    Arrastre la respuesta al modelo que le corresponde.</p>
+                </div>
+
+                <!-- RETROALIMENTACIONES -->
+                <div class="retroalimentacion correcto">
+                    <h2>¡Es correcto!</h2>
+                    <p align="justify">Cada modelo epistemológico tiene un enfoque específico, desde el cual aborda el conocimiento y establece su propia metodología.</p>
+                </div>
+
+                <div class="retroalimentacion incorrecto">
+                    <h2>Incorrecto</h2>
+                    <p>No tener claridad en los modelos epistémicos puede conducir a que una investigación confunda su enfoque y validez.</p>                
+                </div>
+
+                <div class="retroalimentacion otro_intento">
+                    <h2>Intente nuevamente</h2>
+                    <p>No tener claridad en los modelos epistémicos puede conducir a que una investigación confunda su enfoque y validez.</p>
+                    <div class="buttonContainer"><button class="btnFeedback-revisar">Revisar</button></div>
+                </div>
+
+            </div>
+
+        </div>        
+
+    </body>
+
+</html>

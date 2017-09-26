@@ -4,6 +4,16 @@
     overflow: hidden;
     background: url(../images/cont02/Tema-2-slide-1.jpg) no-repeat;
 }*/
+.posExtras{
+    padding: 0px;
+    margin: -100px 0px 0px 506px;    
+}
+.posExtras1{
+    margin: -278px 0px 0px 432px;
+    width: 62px;
+    height: 47px;
+    cursor: pointer;
+}
 .cont01{
     width: 900px;
     height: 550px;
@@ -112,8 +122,8 @@ body{
 }
 .cls{
     position: absolute;
-    right: 1px;
-    top: 1px;
+    right: 138px;
+    top: 222px;
     cursor: pointer;
 }
 .flechaRojaDerecha{

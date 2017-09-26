@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="../css/style_btn.css">
     <link rel="stylesheet" href="../css/cont02_btn02.css">
     <link rel="stylesheet" href="../css/generic.css">
+    <link rel="stylesheet" href="../bower_components/bxslider-4/dist/jquery.bxslider.css">
+    <link rel="stylesheet" href="../bower_components/bxslider-4/dist/jquery.bxsliderMod.css">
     
-    <!-- jQuery -->
+    <!-- jQuery <script src="../js/jPages.js"></script>-->
     <script src="../bower_components/jquery/dist/jquery.js"></script>
-    <script src="../js/helper_functions.js"></script>
-    <script src="../js/jPages.js"></script>
+    <script src="../js/helper_functions.js"></script>   
+    <script src="../bower_components/bxslider-4/dist/jquery.bxslider.js"></script>
     <script src="../js/cont02_btn02.js"></script>
 
 </head>
@@ -23,67 +25,54 @@
 
         <div id="content" class="defaults">
 
-        <!-- navigation holder -->
-        <div class="holder"></div>
 
-        <!-- wrapped custom buttons for easier styling -->
-            <div class="customBtns">
-                <span class="arrowPrev flechaAzulIzquierda"></span>
-                <span class="arrowNext flechaAzulDerecha"></span>
+
+                
+            <div class="btn1 btn_tab_s" data-cont-tab-s="C1" data-opacity="true"><img src="../images/cont02/Btn02/Btn_01.png"></div>
+            <div class="btn2 btn_tab_s" data-cont-tab-s="C2" data-opacity="true"><img src="../images/cont02/Btn02/Btn_02.png"></div>
+            <div class="btn3 btn_tab_s" data-cont-tab-s="C3" data-opacity="true"><img src="../images/cont02/Btn02/Btn_03.png"></div>
+            <div class="btn4 btn_tab_s" data-cont-tab-s="C4" data-opacity="true"><img src="../images/cont02/Btn02/Btn_04.png"></div>
+            <div class="btn5 btn_tab_s" data-cont-tab-s="C5" data-opacity="true"><img src="../images/cont02/Btn02/Btn_05.png"></div>
+        
+            <div class="cont02 cont_tab_s" id="C1">
+                <button class="cls cerrar" data-close-id-tab="C1"></button>
+                <img src="../images/cont02/Btn02/Btn_11.png">
             </div>
-
-            <div class="black black_not_lert">
-
+            <div class="cont02 cont_tab_s" id="C2">
+                <button class="cls cerrar" data-close-id-tab="C2"></button>
+                <img src="../images/cont02/Btn02/Btn_22.png">
+            </div>
+            <div class="cont02 cont_tab_s" id="C3">
+                <button class="cls cerrar" data-close-id-tab="C3"></button>
+                <img src="../images/cont02/Btn02/Btn_33.png">
+            </div>  
+            <div class="cont02 cont_tab_s" id="C4">
+                <button class="cls cerrar" data-close-id-tab="C4"></button>
+                <img src="../images/cont02/Btn02/Btn_44.png">
             </div> 
+            <div class="cont02 cont_tab_s" id="C51">             
+            
+            </div> 
+            
+            <div class="bxsliderPos" id="C5">
 
-            <!-- item container -->
-            <div class="pgs">
-                <ul id="itemContainer">
-                <li>
-                    <div>
-                        <div class="btn1 btn_tab_s" data-cont-tab-s="C1" data-opacity="true"><img src="../images/cont02/Btn02/Btn_01.png"></div>
-                        <div class="btn2 btn_tab_s" data-cont-tab-s="C2" data-opacity="true"><img src="../images/cont02/Btn02/Btn_02.png"></div>
-                        <div class="btn3 btn_tab_s" data-cont-tab-s="C3" data-opacity="true"><img src="../images/cont02/Btn02/Btn_03.png"></div>
-                        <div class="btn4 btn_tab_s" data-cont-tab-s="C4" data-opacity="true"><img src="../images/cont02/Btn02/Btn_04.png"></div>
-                        <div class="btn5 btn_tab_s" data-cont-tab-s="C5" data-opacity="true"><img src="../images/cont02/Btn02/Btn_05.png"></div>
-                    </div>
-                    <div>
-                        <div class="cont02 cont_tab_s" id="C1">
-                            <button class="cls cerrar" data-close-id-tab="C1"></button>
-                            <img src="../images/cont02/Btn02/Btn_11.png">
-                        </div>
-                        <div class="cont02 cont_tab_s" id="C2">
-                            <button class="cls cerrar" data-close-id-tab="C2"></button>
-                            <img src="../images/cont02/Btn02/Btn_22.png">
-                        </div>
-                        <div class="cont02 cont_tab_s" id="C3">
-                            <button class="cls cerrar" data-close-id-tab="C3"></button>
-                            <img src="../images/cont02/Btn02/Btn_33.png">
-                        </div>  
-                        <div class="cont02 cont_tab_s" id="C4">
-                            <button class="cls cerrar" data-close-id-tab="C4"></button>
-                            <img src="../images/cont02/Btn02/Btn_44.png">
-                        </div>       
-                        <div class="cont02 cont_tab_s" id="C5">
-                            
-                            <ul id="itemContainer">
-                                <li>
-                                    <button class="cls cerrar" data-close-id-tab="C5"></button>
-                                    <img src="../images/cont02/Btn02/Btn_55.png">
-                                </li>
-                                <li>
-                                    <!--<button class="cls cerrar" data-close-id-tab="C5"></button>-->
-                                    <img src="../images/cont02/Btn02/Btn_55_2.png">
-                                </li>
-                            </ul>
-                        </div> 
-                    </div>
-                    <img src="../images/cont02/Btn02/Slide02.jpg">
-                </li>
-
+                <button class="cls cerrar" data-close-id-tab="C5"></button>
+                    
+                <ul class="bxslider">
+                  <li>
+                      
+                      <img src="../images/cont02/Btn02/Btn_55.png">                            
+                  </li>
+                  <li>
+                      
+                      <img src="../images/cont02/Btn02/Btn_55_2.png">
+                  </li>                              
                 </ul>
+
             </div>
 
+            <img src="../images/cont02/Btn02/Slide02.jpg">
+            
         </div>
         <!--! end of #content -->
     </div>

@@ -1,0 +1,33 @@
+.bxsliderPos{
+    position: absolute;
+    margin-top: 160px;
+    width: 675px;
+    margin-left: 76px;
+    border: 0;
+}
+
+.bx-wrapper img {
+    max-width: 100%;
+    display: block;
+    margin-left: 0px;
+}
+
+.bxslider li{
+
+}
+
+.bx-wrapper {
+    -moz-box-shadow: 0 0 0px #ccc;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 0px rgba(204, 204, 204, 0);
+    border: 0;
+    background: rgba(255, 255, 255, 0);
+}
+
+.bxsliderPos1{
+    position: absolute;
+    margin-top: 2px;
+    width: 675px;
+    margin-left: 12px;
+    border: 0; 
+}

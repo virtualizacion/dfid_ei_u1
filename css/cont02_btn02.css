@@ -81,11 +81,52 @@ body{
     height: 50px;
     margin: 250px 0 0 0;
 }
+.arrowPrev, .arrowNext{
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: 55px;
+    cursor: pointer;
+}
+.arrowPrev{
+    background: url('img/arrowP.svg') no-repeat;
+    left: 0px;
+    z-index: 100;
+    width: 30px;
+    height: 40px;
+    margin: -50px 0 0 4px;
+}
+.arrowNext{
+    background: url(img/arrowN.svg) no-repeat;
+    right: 0px;
+    width: 30px;
+    height: 40px;
+    z-index: 100;
+    margin: -50px 0 0 0px;
+}
 
+.arrowPrev.jp-disabled, .arrowNext.jp-disabled{
+    display: none;
+}
 .pgs{
     margin: 0 auto;
     width: 940px;
     height: 450px;
     position: relative; 
 }
+.pdf01{
+    position: absolute;
+    margin: 0;
+    z-index: 3;
+    margin: -50px 0 0 0;
+    right: 90px;
+}
+.flechaRojaDerecha{
+    background: url('../images/FlechaderechaR.png') no-repeat!important;
+    
+}
 
+.flechaRojaIzquierda{
+    background: url('../images/FlechaizquierdaR.png') no-repeat!important;
+    
+}
